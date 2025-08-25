@@ -26,6 +26,12 @@ img {
   max-width:100%;
 }
 
+picture {
+  display: block;
+  height:auto;
+  max-width:100%;
+}
+
 button {
   border: none;
   cursor: pointer;
@@ -44,8 +50,6 @@ button {
   .container {
   max-width:768px;
   padding:0 16px;
-
-  margin:0;
   }
 }
 
@@ -393,7 +397,7 @@ display:none;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpg);
+    url(../images/img-name-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -401,21 +405,12 @@ display:none;
   margin:0 auto;
 }
 
-@media screen and (max-width:767px) {
-  .section-first {
-      background-image:linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ), url(../images/img-name-mobile.jpg);
-    }
-  }
-
 @media screen and (min-width:325px) and (min-resolution:192dpi){
   .section-first {
       background-image:linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ),url(../images/@2x/img-name-mobile@2.jpg);
+      ),url(../images/@2x/img-name-mobile@2x.jpg);
   }
 }
 
@@ -432,7 +427,7 @@ display:none;
       background-image:linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ),url(../images/@2x/img-name-tablet@2.jpg);
+      ),url(../images/@2x/img-name-tablet@2x.jpg);
   }
 }
 
@@ -441,7 +436,7 @@ display:none;
       background-image:linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ),url(../images/@2x/img-name@2.jpg);
+      ),url(../images/@2x/img-name@2x.jpg);
   }
 }   
 
@@ -1449,3 +1444,16 @@ color:rgba(46,47,66,0.4);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
 }
+
+/* ім я батька - дитини*/
+/* currentColor */
+/* align+justify(items, self, content) якщо є флекс заданий обгортці */
+/* first,last-child */
+/* :not(:....)*/
+/* bakcground-position:50% 50%; (ce center) */
+/* background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.3), rgba(255,0,0,0.3)), url()  */
+/* box-shadow: -/inset x y blur spread color */ 
+/* transition: property duration timing-function delay */
+/* transform:scale/x/y rotate(turn/deg) translate/x/y(tx/ty/tx, ty) skew/x/y(x, y/x/y) */
+/* image srcset */
+/* атрибут a[target="_blank"]*/
