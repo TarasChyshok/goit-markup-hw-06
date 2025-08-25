@@ -159,7 +159,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpeg);
+    url(../images/img-name.jpg);
   background-size: cover;
   max-width: 100%;
   background-repeat: no-repeat;
@@ -417,10 +417,6 @@ body {
   padding:32px 0 32px 16px;
 }
 
-.portfolio-h-and-p-div{
-  
-}
-
 .portfolio-div-overflow {
   width:360px;
   height:300px;
@@ -535,10 +531,6 @@ body {
 .footer-form {
   display:flex;
   gap:24px;
-}
-
-.footer-div-label {
-
 }
 
 .footer-social-subscribe-svg-use {
