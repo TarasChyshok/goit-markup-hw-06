@@ -1357,10 +1357,7 @@ text-align: center;;
 .modal-form-label-textarea {
 width:100%;
 background-color:transparent;
-border: 1px;
-border-color:rgba
-(46, 47, 66, 0.4);
-border-style: solid;
+border: 1px rgba(46, 47, 66, 0.4) solid;
 border-radius:4px;
 outline:transparent;
 resize:none;
